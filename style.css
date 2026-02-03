@@ -188,3 +188,39 @@ h2 {
     color: #2ecc71;
     font-size: 1.1rem;
 }
+
+/* Estilizando a seção "MeetUs: Quem Somos" */
+.about-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 1.8;
+}
+
+.about-content p {
+    margin-bottom: 20px;
+}
+
+/* Estilizando os detalhes de contato */
+.about-content br + b, 
+.about-content p:last-child {
+    font-size: 1.1rem;
+    color: #2c3e50;
+}
+
+/* Ajuste do grid de conselhos */
+.advice-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    max-width: 1000px;
+    margin: 30px auto;
+}
+
+.advice-item {
+    padding: 20px;
+    border-left: 4px solid #3498db;
+    background: #f9f9f9;
+    text-align: left;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
