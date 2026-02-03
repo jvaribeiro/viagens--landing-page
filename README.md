@@ -1,5 +1,7 @@
 # 🌍 Agência de Viagens
 
+> 🚀 **Confira o projeto online:** [https://viagens-landing-page-self.vercel.app/](https://viagens-landing-page-self.vercel.app/)
+
 Este projeto é a solução para o **Projeto de Certificação 1** do curso, consistindo em uma Landing Page moderna e funcional para uma agência de turismo focada em vilarejos e destinos paradisíacos.
 
 A aplicação foi desenvolvida com foco em **conversão ("catch the fish")**, utilizando práticas de semântica HTML5, acessibilidade e design responsivo.
