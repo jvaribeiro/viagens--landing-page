@@ -22,7 +22,7 @@
         </ul>
       </nav>
     </header>
-    
+
     <main id="home">
       <section class="banner">
         <div class="overlay">
@@ -161,5 +161,19 @@
         <p>&copy; 2026 TripMe - Projeto de Certificação.</p>
       </div>
     </footer>
+
+    <a href="#home" class="btn-floating-top" aria-label="Voltar ao topo"> ↑ </a>
+    <script>
+      const backToTopBtn = document.querySelector(".btn-floating-top");
+
+      window.addEventListener("scroll", () => {
+        // Se a rolagem passar de 300px, adiciona a classe 'show'
+        if (window.scrollY > 300) {
+          backToTopBtn.classList.add("show");
+        } else {
+          backToTopBtn.classList.remove("show");
+        }
+      });
+    </script>
   </body>
 </html>
